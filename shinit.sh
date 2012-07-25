@@ -1,7 +1,7 @@
 function serve() {
 	if __serve_command_exists python
 	then
-	    python -m SimpleHTTPServer
+	    python -m SimpleHTTPServer 8080
 	elif __serve_command_exists python3
 	then
 		python3 -m http.server 8080
